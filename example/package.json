@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "react-native-face-detection": "^0.1.1"
+  }
+}
