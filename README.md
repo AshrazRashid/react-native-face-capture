@@ -14,7 +14,7 @@ A React Native application that demonstrates real-time face detection capabiliti
 
 Below is a screenshot showing the expected behavior of the package. The app detects faces in a selected or captured image and draws a bounding box around the detected face(s), along with face data:
 
-![Face Detection Demo](./screenshot.jpg)
+![Face Detection Demo](./screenshot.png)
 
 ## Prerequisites
 
