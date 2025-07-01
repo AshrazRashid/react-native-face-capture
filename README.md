@@ -54,14 +54,6 @@ For Android 13+ (API 33+), also add:
 <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
 ```
 
-## Installation
-
-1. Clone the repository:
-
-```
-
-```
-
 ## Compatibility
 
 This package has been tested with the following versions:
