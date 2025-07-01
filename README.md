@@ -4,17 +4,19 @@ A React Native application that demonstrates real-time face detection capabiliti
 
 ## Features
 
-- 📸 Take photos using device camera
-- 🖼️ Select images from photo library
+- 📸 Take photos using the device camera
+- 🖼️ Select images from the photo library
 - 👤 Real-time face detection
 - 📐 Face bounding box visualization
 - 📱 Cross-platform (iOS & Android)
 
 ## Demo
 
-Below is a screenshot showing the expected behavior of the package. The app detects faces in a selected or captured image and draws a bounding box around the detected face(s), along with face data:
+Below is a screenshot showing the package's expected behavior. The app detects faces in a selected or captured image and draws a bounding box around the detected face(s), along with face data:
 
-![Face Detection Demo](./screenshot.png)
+<div align="center">
+  <img src="./screenshot.png" alt="Face Detection Demo" width="400" height="800"/>
+</div>
 
 ## Prerequisites
 
@@ -106,7 +108,7 @@ export default function App() {
 - `FaceDetector`: Main component for face detection and overlay.
 - `useFaceDetection`: Custom hook for face detection logic.
 - `FaceOverlay`: Overlay component for drawing on faces.
-- `ImagePickerButtons`: UI for picking images from camera or gallery.
+- `ImagePickerButtons`: UI for picking images from the camera or gallery.
 
 ## License
 
