@@ -1,5 +1,3 @@
-# FaceApp
-
 A React Native application that demonstrates real-time face detection capabilities using the device's camera or photo library.
 
 ## Features
