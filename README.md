@@ -72,3 +72,50 @@ This package has been tested with the following versions:
 - react-native-image-picker: ^8.2.1
 
 It may work with other versions, but these are the versions officially tested and supported.
+
+## Installation
+
+Install the package and its peer dependencies:
+
+```sh
+npm install react-native-face-capture react-native-face-detection react-native-image-picker
+# or
+yarn add react-native-face-capture react-native-face-detection react-native-image-picker
+```
+
+## Usage
+
+Here is a basic example using the FaceDetector component:
+
+```jsx
+import React, { useState } from "react";
+import { View } from "react-native";
+import { FaceDetector, ImagePickerButtons } from "react-native-face-capture";
+
+export default function App() {
+  const [image, setImage] = useState();
+
+  return (
+    <View style={{ flex: 1 }}>
+      <ImagePickerButtons onImagePicked={setImage} />
+      <FaceDetector
+        image={image}
+        onDetection={(faces) => {
+          console.log("Detected faces:", faces);
+        }}
+      />
+    </View>
+  );
+}
+```
+
+## API
+
+- `FaceDetector`: Main component for face detection and overlay.
+- `useFaceDetection`: Custom hook for face detection logic.
+- `FaceOverlay`: Overlay component for drawing on faces.
+- `ImagePickerButtons`: UI for picking images from camera or gallery.
+
+## License
+
+MIT
